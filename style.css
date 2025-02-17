@@ -1,0 +1,95 @@
+.bg-body-primary{
+    background-color: rgb(15, 22, 90)
+}
+.px-0{
+    color: white;
+}
+.redbox{
+    background-color: rgb(155, 49, 49);
+    color: white;
+}
+.greenbox{
+    background-color: rgb(11, 82, 18);
+    color: white;
+}
+.majorparticip{
+    font-weight: bold;
+}
+.continue{
+    color: white;
+}
+.usnews{
+    color: white;
+}
+#span {
+    font-family: "Black Asylum";
+    font-size: 32px;
+}
+.stretched-link{
+    color: rgb(255, 244, 161);
+    font-weight: 625;
+    font-style: italic;
+}
+.continue{
+    color: rgb(255, 244, 161);
+}
+.greendate{
+    color: rgb(189, 189, 189);
+}
+.reddate{
+    color: rgb(189, 189, 189);
+}
+.lh-1{
+    background-color: rgba(0, 0, 0, 0.194);
+}
+.homebutton{
+    position: relative;
+    right: 35px;
+}
+.continuereading{
+    color:rgb(255, 244, 189);
+    font-weight: bold;
+    font-style: italic;
+}
+.oppenheimer{
+    float: left;
+    width: 200px;
+    height: 180px;
+    padding-right: 30px;
+}
+.fatman{
+    width: 250px;
+}
+.littleboy{
+    width: 250px;
+}
+.bombs{
+    display: flex;
+    gap: 15px;
+}
+.bombword{
+    margin-left: 80px;
+}
+p {
+    font-family: "Ubuntu", serif;
+    font-weight: 330;
+    font-style: normal;
+  }
+h1{
+
+    font-family: "Faustina", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+h2{
+    font-family: "Faustina", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+h3{
+    font-family: "Lato", serif;
+    font-weight: 600;
+    font-style: normal;
+}
