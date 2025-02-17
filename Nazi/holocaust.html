@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Smooch+Sans:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Smooch+Sans:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World War II</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
+      </symbol>
+    </svg>
+
+    
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="aperture" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="10"></circle>
+    <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path>
+  </symbol>
+  <symbol id="cart" viewBox="0 0 16 16">
+    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+  </symbol>
+  <symbol id="chevron-right" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+  </symbol>
+</svg>
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <a class="link-secondary" href=""></a>
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="../homepage.html"><span id="span">World War II</span></a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <a class="link-secondary homebutton" href="../homepage.html" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-scroller py-1 mb-3 border-bottom">
+    <nav class="nav nav-underline justify-content-between">
+      <a class="nav-item nav-link link-body-emphasis" href="../US/us.html">United States</a>
+      <a class="nav-item nav-link link-body-emphasis active" href="./nazi.html">Nazi Germany</a>
+      <a class="nav-item nav-link link-body-emphasis" href="../Soviet/soviet.html">Soviet Union</a>
+      <a class="nav-item nav-link link-body-emphasis" href="../UK/uk.html">United Kingdom</a>
+      <a class="nav-item nav-link link-body-emphasis" href="../china.html">China</a>
+      <a class="nav-item nav-link link-body-emphasis" href="../france.html">France</a>
+      <a class="nav-item nav-link link-body-emphasis" href="../italy.html">Fascist Italy</a>
+      <a class="nav-item nav-link link-body-emphasis" href="../japan.html">Imperial Japan</a>
+    </nav>
+  </div>
+</div>
+<main class="container">
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h1 class="pb-4 mb-4 fst-italic border-bottom">
+        The Holocaust
+      </h1>
+      <img src="./holocasut.jpg" alt="" style="display:flex;float:left;width:300px; padding-right: 20px; padding-bottom: 10px;">
+    <p>
+        The Holocaust was an unimaginable nightmare—an obscene, systematic campaign of mass murder that claimed six million Jewish lives, along with millions of others deemed "undesirable" by the Nazi regime. Led by Adolf Hitler, the Nazis turned genocide into an industrial operation, ruthlessly exterminating people with horrifying efficiency. Men, women, and children were stripped of their humanity, transported in death trains, and murdered in concentration camps like Auschwitz and Treblinka, where gas chambers and crematoriums were used like factories of death. The brutality was staggering—whole families obliterated in an instant, cultures wiped out, and innocent lives snuffed out with no remorse. This was not just killing; it was a calculated erasure of entire populations, an affront to all that is human. The sheer inhumanity of it—the cold, bureaucratic nature of mass murder—defies comprehension. It remains the most grotesque crime ever committed, a stain on humanity that should never be forgotten.</p>
+<hr>
+    <h2>Adolf Hitler</h2>
+    <img src="./hitler.jpg" alt="" style="display:flex; float:right; width:360px; padding-left: 20px; padding-bottom:15px;">
+    <p>Adolf Hitler was the leader of Nazi Germany and the primary architect of the Holocaust. Born in Austria in 1889, Hitler rose to power as chancellor in 1933 and became the dictator of Germany. His ideology, outlined in his book Mein Kampf, promoted the belief in Aryan racial superiority and blamed Jews, Roma, and others for Germany's ills. Hitler's aggression led to World War II and the implementation of the "Final Solution," a plan to systematically exterminate Jews and other minorities. His totalitarian control over Germany turned the nation into a machine of war and mass murder. The horrors of the Holocaust, under his orders, marked one of the darkest periods in human history. In 1945, as Germany collapsed under the weight of defeat, Hitler took his own life in a bunker in Berlin, leaving behind a legacy of destruction and suffering.</p>
+<hr>
+<img src="holo.jpg" alt="" style="width:300px; display:flex; float: right; padding-left:20px;">    
+<h2>Key Figures and Locations</h2>
+    <p>At the core of the Holocaust was Heinrich Himmler, head of the SS, who oversaw the terror, and Adolf Eichmann, who coordinated the logistics of deportations and killings. The primary sites of the genocide were concentration and extermination camps like Auschwitz, Treblinka, and Sobibor, where millions were killed in gas chambers, through shootings, starvation, and forced labor.</p>
+<hr>
+    <h2>The "Final Solution"</h2>
+    <p>In 1942, Hitler and the Nazis officially adopted the "Final Solution"—a systematic plan to eradicate the Jewish population in Europe. Jews were rounded up, transported in horrific conditions, and murdered in death camps, while others were executed or worked to death in forced labor camps. The brutality of the Nazis knew no limits, with medical experiments and mass executions marking the grim reality.</p>
+<hr>
+    <h2>The Aftermath</h2>
+    <p>The Holocaust ended with the fall of Nazi Germany in 1945. The Allied forces liberated the camps, revealing the full extent of the atrocities. The world was left in horror, and many of the surviving victims struggled to rebuild their lives. At the Nuremberg Trials, Nazi leaders, including those responsible for the Holocaust, were held accountable for war crimes.</p>
+<hr>
+    <h2>Legacy of the Holocaust</h2>
+    <p>The Holocaust remains one of the most horrific genocides in history, serving as a stark reminder of the consequences of unchecked hatred, totalitarianism, and racism. It led to the creation of the United Nations, human rights laws, and numerous memorials to the victims. "Never Again" became a global call to prevent future genocides, but the haunting memory of the Holocaust continues to shape how the world confronts hatred and bigotry.</p>
+</body>
+
+    </div>
+
+    
+</main> 
+
+</body>
+</html>

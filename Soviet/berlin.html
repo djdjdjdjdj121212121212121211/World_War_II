@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Smooch+Sans:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Smooch+Sans:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World War II</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
+      </symbol>
+    </svg>
+
+    
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="aperture" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="10"></circle>
+    <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path>
+  </symbol>
+  <symbol id="cart" viewBox="0 0 16 16">
+    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+  </symbol>
+  <symbol id="chevron-right" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+  </symbol>
+</svg>
+
+<div class="container">
+  <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <a class="link-secondary" href=""></a>
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="../homepage.html"><span id="span">World War II</span></a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <a class="link-secondary homebutton" href="../homepage.html" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-scroller py-1 mb-3 border-bottom">
+    <nav class="nav nav-underline justify-content-between">
+      <a class="nav-item nav-link link-body-emphasis" href="../US/us.html">United States</a>
+      <a class="nav-item nav-link link-body-emphasis" href="../Nazi/nazi.html">Nazi Germany</a>
+      <a class="nav-item nav-link link-body-emphasis active" href="./soviet.html">Soviet Union</a>
+      <a class="nav-item nav-link link-body-emphasis" href="../UK/uk.html">United Kingdom</a>
+      <a class="nav-item nav-link link-body-emphasis" href="../china.html">China</a>
+      <a class="nav-item nav-link link-body-emphasis" href="../france.html">France</a>
+      <a class="nav-item nav-link link-body-emphasis" href="../italy.html">Fascist Italy</a>
+      <a class="nav-item nav-link link-body-emphasis" href="../japan.html">Imperial Japan</a>
+    </nav>
+  </div>
+</div>
+<main class="container">
+  <div class="row g-5">
+    <div class="col-md-8">
+    <h1 class="pb-4 mb-4 fst-italic border-bottom">
+        Battle of Berlin
+        </h1>
+    <p>The Battle of Berlin, fought from April 16 to May 2, 1945, was the decisive final confrontation of World War II in Europe. The last stand of Nazi Germany would unfold on the very streets of its capital, where the Soviets, driven by vengeance and a desire to end Hitler’s reign once and for all, launched a final, crushing assault to capture the heart of the Third Reich.</p>
+    <hr>
+    <h2>The Last Days of Nazi Germany</h2>
+    <img src="./berlin.jpeg" alt="" style="display:flex; float: right; width:350px; padding-left:15px;">
+    <p>By the spring of 1945, Nazi Germany was on the brink of collapse. The Allied forces had already crossed into German territory from the west, and Soviet forces were closing in from the east. Hitler’s once-mighty empire was crumbling under the weight of Allied bombings, internal dissent, and the relentless pressure from the Soviet Red Army. Berlin, the heart of Hitler’s nightmare regime, became the last symbol of defiance.
+<br>
+        The German forces defending the city were a ragtag collection of Wehrmacht soldiers, Volkssturm (German militia), and SS troops, many of whom were poorly trained, exhausted, and demoralized. Their commander, Hitler himself, was holed up in his underground bunker, giving increasingly erratic orders, and stubbornly refusing to acknowledge the reality of his imminent defeat.
+        
+        </p>
+    <hr>
+    <h2>The Soviet Siege</h2>
+    <img src="./beerlin.jpeg" alt="" style="display:flex; float:left; width:310px; margin-right: 15px;">
+    <p>The Red Army, under the command of Marshal Georgy Zhukov and Marshal Ivan Konev, began their assault on Berlin on April 16, 1945. The battle was a relentless urban siege, with Soviet forces surrounding the city from all sides. Soviet artillery began to pound the city into ruins, and waves of infantry and tank divisions began their methodical push toward the city center.
+<br>
+        The streets of Berlin became a blood-soaked battlefield. The Soviet soldiers, fueled by vengeance and hatred for the atrocities committed by the Nazis, advanced with a determination born of years of suffering. The German defenders, many of them fanatical Nazi diehards, fought to the death, but it was clear that the city was doomed.</p>
+    <hr>
+        <h2>The Last Stand</h2>
+    <p>As the Soviets encircled Berlin, the Germans put up a desperate resistance. The final months of the war had seen the collapse of the Nazi regime, and even though Hitler had been dead by the time Berlin fell, his remaining loyalists fought in his name, hoping for a miracle. But there was no miracle. Soviet tanks rolled through the city’s streets, crushing any resistance in their path.
+<br>
+        On April 30, 1945, Hitler committed suicide in his bunker as the Soviet forces drew closer. His death symbolized the end of the Nazi regime. The fighting continued, but Berlin was already lost. The Battle of Berlin became a symbol of Nazi Germany’s utter destruction, and by May 2, the last of the German forces in the city surrendered.     
+        </p>
+    <hr>
+    <h2>The End of Nazi Germany</h2>
+    <p>With the fall of Berlin, Nazi Germany was officially defeated. The Allied forces in the west and the Soviets in the east had accomplished what had once seemed impossible: they had brought down one of the most brutal regimes in history. The Soviet victory in Berlin marked the final chapter in the European theater of World War II.</p>
+    <hr>
+    <h2>Impact and Legacy</h2>
+    <p>The Battle of Berlin left the city in ruins. It was the ultimate symbol of the total collapse of Hitler’s dream of empire. The battle also demonstrated the Soviet Union's enormous contribution to the defeat of Nazi Germany, with over 1 million Soviet soldiers involved in the operation.
+<br>
+        The end of the battle also marked the beginning of the Cold War, as the Soviets and the Western Allies now faced each other as competing superpowers. The destruction of Berlin and the eventual division of Germany would shape the post-war world for decades to come.
+        <br>
+        The Battle of Berlin stands as one of the final, harrowing moments of World War II—a city reduced to rubble, its people crushed under the weight of their own Nazi regime, and the Soviet Union standing victorious at the gates of Hitler’s once-glorious capital.</p>
+  
+</main> 
+
+</body>
+</html>
