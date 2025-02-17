@@ -1,0 +1,16 @@
+<script>start("/Users/diane_1211/HTML/World War II/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("Nazi","Nazi",1,448,"448 B",1737816288,"1/25/25, 11:44:48 PM");</script>
+<script>addRow("Soviet","Soviet",1,384,"384 B",1739489058,"2/14/25, 8:24:18 AM");</script>
+<script>addRow("UK","UK",1,480,"480 B",1739318252,"2/12/25, 8:57:32 AM");</script>
+<script>addRow("US","US",1,512,"512 B",1737797088,"1/25/25, 6:24:48 PM");</script>
+<script>addRow("china.html","china.html",0,4697,"4.6 kB",1739620102,"2/15/25, 8:48:22 PM");</script>
+<script>addRow("france.html","france.html",0,4701,"4.6 kB",1739620103,"2/15/25, 8:48:23 PM");</script>
+<script>addRow("home.webp","home.webp",0,407278,"398 kB",1737791707,"1/25/25, 4:55:07 PM");</script>
+<script>addRow("homefinal.jpg","homefinal.jpg",0,56137,"54.8 kB",1737796488,"1/25/25, 6:14:48 PM");</script>
+<script>addRow("homehome.webp","homehome.webp",0,19710,"19.2 kB",1737795670,"1/25/25, 6:01:10 PM");</script>
+<script>addRow("homepage.html","homepage.html",0,5090,"5.0 kB",1739620105,"2/15/25, 8:48:25 PM");</script>
+<script>addRow("homepage.png","homepage.png",0,460655,"450 kB",1737795111,"1/25/25, 5:51:51 PM");</script>
+<script>addRow("italy.html","italy.html",0,4729,"4.6 kB",1739620106,"2/15/25, 8:48:26 PM");</script>
+<script>addRow("japan.html","japan.html",0,4733,"4.6 kB",1739620107,"2/15/25, 8:48:27 PM");</script>
+<script>addRow("style.css","style.css",0,1470,"1.4 kB",1739620108,"2/15/25, 8:48:28 PM");</script>
